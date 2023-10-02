@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0FFFF;
+    flex-direction: column;
+}
+
+.head{
+    background-color: #73C2FB;
+    margin-top: 100px;
+    width: 30%;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 15px;
+    border-radius: 15px;
+    /* background: rgba( 255, 255, 255, 0.3 ); */
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.head h1{
+    color: #E0FFFF;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.addition{
+    display: flex;
+    justify-content: center;
+    /* width: 400px; */
+    gap: 10px;
+}
+.addition input{
+    text-align: center;
+    height: 35px;
+    width: 300px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+.addition button{
+    border-radius: 50%;
+    background-color: #B9D9EB;
+    border: none;
+    padding: 10px 10px;
+}
+
+
+.task-list{
+
+    background-color: #73C2FB;
+    margin-top: 30px;
+    width: 30%;
+    padding: 30px;
+    padding-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.task-list h2{
+    color: #E0FFFF;
+}
+
+.content{
+    background-color: #B9D9EB;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    align-items: center;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.delete{
+    text-decoration: none;
+}
